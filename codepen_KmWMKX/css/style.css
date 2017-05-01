@@ -1,0 +1,65 @@
+.buttons{
+  height:5vh;
+}
+.login,.sign_up{
+  text-align:center;
+  width:40%;
+}
+.form-body-login{
+  margin:0 auto;
+  border:1px solid black;
+  width:40%;
+  height:80vh;
+  margin-top:3%;
+}
+.form-body-signup{
+  margin:0 auto;
+  width:inherit;
+  height:inherit;
+  margin-top:3%;
+
+}
+.logo{
+  text-align:center;
+  margin-left:8%;
+  height:20vh;
+}
+.user_name{
+  margin-top:2%;
+  height:5vh;
+}
+.fa-user{
+  z-index:1;
+}
+
+.pwd{
+  height:5vh;
+}
+.password,.username{
+  border:0px;
+  border-bottom:1px solid #4c4c4c;
+  opacity:0.5;
+}
+.fa-key{
+  z-index:1;
+}
+.remember{
+  height:5vh;
+}
+
+#username_signup,#password_signup,#phone{
+  border:0px;
+  border-bottom: 1px solid black;
+}
+.username_signup,.password_signup,.phone,.signup_button{
+  margin:3% 2%;
+}
+
+body{
+  background:#297FB8;
+}
+
+.form-body-login{
+  background-color:#F6F6F6 !important;
+  z-index:1;
+}
